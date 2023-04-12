@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bitter:ital@1&family=Inter:wght@200&family=Karla:wght@200&family=Lexend+Deca:wght@200;400&family=Montagu+Slab:opsz@16..144&family=Montserrat:wght@400;700;900&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Big+Shoulders+Display:wght@700&family=Bitter:ital@1&family=Inter:wght@200&family=Karla:wght@200&family=Lexend+Deca:wght@200;400&family=Montagu+Slab:opsz@16..144&family=Montserrat:wght@400;700;900&family=Ubuntu&display=swap');
+
+
+
+.main{
+display: flex;
+margin: 200px 150px;
+height: 500px;
+align-items: left ;
+max-width: 900px;
+border-radius: 5%;
+}
+h1{
+    color: white;
+    font-size: 40px;
+}
+p{
+    color: rgba(237, 240, 241, 0.753);
+}
+
+div > p {
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 25px;
+}
+
+div > h1{
+    font-family: 'Big Shoulders Display', cursive;
+}
+.card1{
+    background-color: hsl(31, 77%, 52%);
+    padding: 50px;
+    width: 350px;
+    border-radius: 5px 0 0 5px;
+}
+.card2{
+    background-color: hsl(184, 100%, 22%);
+    padding: 50px;
+    width: 350px;
+}
+.card3{
+    background-color: hsl(179, 100%, 13%);
+    padding: 50px;
+    width: 350px;
+    border-radius: 0 5px 5px 0;
+}
+.btn1 {
+    /* -webkit-border-radius: 28;
+    -moz-border-radius: 28; */
+    border-radius: 28px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #f27508;
+    font-size: 15px;
+   background-color: white;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border-color: white;
+    border-width: 0;
+    margin-top: 40px;
+  }
+  .btn2{
+    /* -webkit-border-radius: 28;
+    -moz-border-radius: 28; */
+    border-radius: 28px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(184, 100%, 22%);
+    font-size: 15px;
+   background-color: white;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border-color: white;
+    border-width: 0;
+    margin-top: 40px;
+  }
+  .btn3 {
+    /* -webkit-border-radius: 28;
+    -moz-border-radius: 28; */
+    border-radius: 28px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(179, 100%, 13%);
+    font-size: 15px;
+   background-color: white;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border-color: white;
+    border-width: 0;
+    margin-top: 40px;
+  }
+  
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } 
